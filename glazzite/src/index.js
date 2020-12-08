@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Hi from "./hello.js";
+import Header from "./Header.js";
 import Test from "./hello.js"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Test name="paco"/>
-
+    <Header />
   </React.StrictMode>,
   document.getElementById('root')
   
