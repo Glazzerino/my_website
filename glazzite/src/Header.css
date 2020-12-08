@@ -16,5 +16,5 @@ h1 {
     border-top: 1px solid #61cdff;
     border-bottom: 1px solid #61cdff;
     background: #f8f8f8;
-    box-shadow: inset 0px 1px 4px 0px rgba(93, 231, 255, 0.719);
+    box-shadow: inset 0px 0px 4px 0px #61cdff;
 }

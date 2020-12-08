@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Header from "./Header.js";
-import Test from "./hello.js"
+import Main from "./Main.js"
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
   
