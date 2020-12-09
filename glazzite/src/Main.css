@@ -1,16 +1,25 @@
 .Main {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
 
 }
 
+/* .Col {
+    height: 300px;
+    padding: 10%;
+} */
+
+/* #image_holder {
+    width: 900px;
+} */
+
 img {
-    border-radius: 50%;
-    width: 20%;
-    height: 20%;
+    border-radius: 3%;
+    width: 60%;
+    /* height: 10%; */
     border-color: #61cdff;
     border: 1px solid;
     box-shadow: inset 0px 1px 4px 0px rgba(93, 231, 255, 0.719);
@@ -21,5 +30,5 @@ img {
     margin:15px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-
+    object-fit: cover;
 }
