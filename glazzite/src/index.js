@@ -6,6 +6,8 @@ import Main from "./Main.js"
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+document.title="Francisco Zamora"
+
 ReactDOM.render(
   <React.StrictMode>
     <Header />

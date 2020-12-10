@@ -1,27 +1,22 @@
-.Main {
+#main {
     /* display: flex; */
     /* justify-content: center; */
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 10%;
-    padding-right: 10%;
+    /* padding-right: 10%; */
 
 }
 
-/* .Col {
-    height: 300px;
-    padding: 10%;
-} */
-
-/* #image_holder {
-    width: 900px;
-} */
+#about {
+    width: 100%;
+}
 
 img {
     border-radius: 3%;
-    width: 60%;
+    width: 200px;
     /* height: 10%; */
     border-color: #61cdff;
-    border: 1px solid;
+    /* border: 100px solid; */
     box-shadow: inset 0px 1px 4px 0px rgba(93, 231, 255, 0.719);
     border-color:#61cdff;
     border-top-style: solid;

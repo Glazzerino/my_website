@@ -1,21 +1,27 @@
-.header_bar {
-    text-align: center;
-    display: flex;
+#header_bar {
+    /* text-align: center; */
+    /* display: flex; */
     justify-content: center;
+    padding-left: 10%;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
-h1 {
-    padding-left:10%;
+.text {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#greeting {
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
 }
 
 #sub_bar {
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid #61cdff;
-    border-bottom: 1px solid #61cdff;
-    background: #f8f8f8;
-    box-shadow: inset 0px 0px 4px 0px #61cdff;
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d5d5d5;
+  background: #f8f8f8;
+  box-shadow: inset 0px 1px 4px 0px rgba(0,0,0,0.125);
 }
