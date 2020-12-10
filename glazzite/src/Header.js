@@ -16,6 +16,9 @@ export default class Header extends React.Component {
                     Hello!  I'm an undergrad CS student at ITESM
                 </h5>
             </div>
+        <div>
+            <a href="https://github.com/Glazzerino">My Github</a>
+        </div>
         </div>
         
     )}
