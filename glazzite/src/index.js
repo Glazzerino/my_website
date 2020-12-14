@@ -5,13 +5,15 @@ import Header from "./Header.js";
 import Main from "./Main.js"
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Contact from "./Contact.js";
+import { Container } from 'react-bootstrap';
 document.title="Francisco Zamora"
 
 ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Main />
+    <Contact/>
   </React.StrictMode>,
   document.getElementById('root')
   

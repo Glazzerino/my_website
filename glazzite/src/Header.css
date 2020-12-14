@@ -1,6 +1,4 @@
 #header_bar {
-    /* text-align: center; */
-    /* display: flex; */
     justify-content: center;
     padding-left: 10%;
     align-items: center;
@@ -28,4 +26,13 @@
 
 a {
     padding-left: 10%;
+}
+
+#links {
+    padding: 1%;
+    padding-left:10%;
+}
+
+#sub_bar footer {
+    padding-left: 2%;
 }

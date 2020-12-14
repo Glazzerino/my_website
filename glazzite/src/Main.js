@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import headshot from "./imgs/hshot.png";
-import {Container, Row, Col, Image, Jumbotron as div, ListGroup} from "react-bootstrap";
+import {Container, Row, Col, Image, Jumbotron, ListGroup} from "react-bootstrap";
 
 var arrow = <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
@@ -15,34 +15,35 @@ export default class Main extends React.Component {
                 <Image src={headshot} alt="a picture with me in it" thumbnail/>
             </Col>
             <Col md={6}>
-                <div id="about">
+                <Jumbotron id="about">
                     <h1>About</h1>
                     <p1>
-                        When I'm not busy with homework I'm probably working on something
-                        robotics-related. My STEMiest experiences happened while working
-                        on a robot. That's just one of my interest though.
+                        I'm a 20 year old college student with a wide interest in anything
+                        STEM. I've had experiences with robotics and machine learning. I will
+                        be focusing those areas through my time at college. I am currently diving 
+                        into quantum computing basics.
                         <br/>
                         <br/>
                         I'm currently involved in a RoboNation team at my univerisity.
 
                     </p1>
-                </div>
+                </Jumbotron>
             </Col>
             </Row>
 
             <Row>
                 <Col md={6}>
-                <h4>Projects I've worked on:</h4>
+                <h4>Things I have worked on:</h4>
                 {/* Projects */}
                 <ListGroup variant="flush">
                     <ListGroup.Item>
-                        <Row>
+
                         <Col>
-                            <h2>VantTec</h2>
-                            <p4 style={{color:"grey"}}>As part of the software team</p4>
+                            <h2>VantTec - RoboNation team</h2>
+                            <p4 style={{color:"grey"}}>Programmer - Project won 3<sup>rd</sup> place on Conexión Tec expo</p4>
                         </Col>
                             
-                        </Row>
+
                         <Row>
                                 <Col md="auto">
                                     {arrow}
@@ -59,7 +60,8 @@ export default class Main extends React.Component {
                                 {arrow}
                             </Col>
                             <Col>
-                                <p1>I worked with both machine learning and classical computer vision to build a 
+                                <p1>
+                                    I worked with both machine learning and classical computer vision to build a 
                                     ROS node for this purpose. Our model achieved an R<sup>2</sup> of 96%.
                                 </p1>
                             </Col>
@@ -68,24 +70,23 @@ export default class Main extends React.Component {
 
                     <ListGroup.Item>
                         <Col>
-                            <h2>Overture </h2>
-                            <p4 style={{color:"grey"}}>Cofounder</p4>
+                            <h2>Overture - FIRST Robotics Competition</h2>
+                            <p4 style={{color:"grey"}}>Cofounder/lead programmer - Team awarded with Rookie All Stars recognition</p4>
                         </Col>
-                        <Row>
-                            <Col md="auto">{arrow}</Col>
-                            <Col>
-                                <p1>
-                                    Wrote 2019's robot code. Developed a wrapper class to subdivide
-                                    a total of 1257 lines of code into individual files
-                                </p1>
-                            </Col>
-                        </Row>
                         
                         <Row>
                             <Col md="auto">{arrow}</Col>
                             <Col>
                                 <p1>
-                                    Implemented closed control loops, computer vision and path following
+                                    Developed robot code.
+                                </p1>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="auto">{arrow}</Col>
+                            <Col>
+                                <p1>
+                                    Implemented closed control loops, computer vision and autonomos path following.
                                 </p1>
                             </Col>
                         </Row>
@@ -93,14 +94,14 @@ export default class Main extends React.Component {
 
                     <ListGroup.Item>
                         <Col>
-                            <h2>Test taking app</h2>
+                            <h2>One Month Hack project</h2>
                             <p4 style={{color:"grey"}}>Solo project</p4>
                         </Col>
                         <Row>
                             <Col md="auto">{arrow}</Col>
                             <Col>
                                 <p1>
-                                    Developed an app to create, distribute and take tests with offline capabilities.
+                                    Developed functional PoC of a test creation and application tool.
                                 </p1>
                             </Col>
                         </Row>
@@ -109,16 +110,17 @@ export default class Main extends React.Component {
                             <Col md="auto">{arrow}</Col>
                             <Col>
                                 <p1>
-                                    Used AES and RSA.
+                                    Used AES and RSA encryption to ensure exam's secrecy before and after
+                                    exam's application.
                                 </p1>
                             </Col>
                         </Row>
                     
                     </ListGroup.Item>
-                    <ListGroup.Item>
+                    {/* <ListGroup.Item>
                         <Col>
-                            <h2>Top Teen programmer</h2>
-                            <p4 style={{color:"grey"}}>Solo project</p4>
+                            <h2>Zona Híbrida expo 2018 - Hologram Pyramid</h2>
+                            <p4 style={{color:"grey"}}>Project manager</p4>
                         </Col>
                         
 
@@ -126,12 +128,21 @@ export default class Main extends React.Component {
                             <Col md="auto">{arrow}</Col>
                             <Col>
                                 <p1>
-                                    Used AES and RSA.
+                                    Highschool robotics club was invited to expose different 
+                                    attractions. 
+                                </p1>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md="auto">{arrow}</Col>
+                            <Col>
+                                <p1>
+                                    We made a large hologram pyramid on topf o
                                 </p1>
                             </Col>
                         </Row>
                     
-                    </ListGroup.Item>
+                    </ListGroup.Item> */}
                 </ListGroup>
                 </Col>
                 
