@@ -13,7 +13,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Header />
     <Main />
-    <Contact/>
+    <Contact/> 
   </React.StrictMode>,
   document.getElementById('root')
   
