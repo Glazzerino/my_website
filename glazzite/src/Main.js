@@ -44,11 +44,16 @@ export default class Main extends React.Component {
                         <Jumbotron id="about">
                             <h1>About</h1>
                             <p1>
-                                I'm a 20 year old sophomore with a wide interest in anything
-                                STEM. I've had experiences with robotics and machine learning.
+                                I'm a sophomore with a passion in anything
+                                STEM. 
+                                <br/>
+                                I have a special interest for automation, and that's why
+                                during my time in college I will be specializing in AI. 
+                                <br/>
+                                This page lists the things I've worked on I'm most proud of. 
                         <br />
                                 <br />
-                        Currently involved in a RoboNation team at college.
+                        {/* Currently involved in a RoboNation team at college. */}
 
                     </p1>
                         </Jumbotron>
@@ -62,7 +67,8 @@ export default class Main extends React.Component {
 
                         <ListGroup variant="flush">
 
-                            {this.make_listcomp("Vanttec", "Programmer - Project won 3<sup>rd</sup> place on Conexión Tec expo",
+
+                            {this.make_listcomp("VantTec", "Programmer - Project won 3<sup>rd</sup> place on Conexión Tec expo",
                                 [
                                     "Working with computer vision to build an aiming system for our autonomous submarine.",
 
@@ -80,9 +86,15 @@ export default class Main extends React.Component {
 
                                 ["Developed robot code.",
 
-                                    "Implemented closed control loops, computer vision and autonomos path following."
+                                    "Implemented closed control loops, computer vision and autonomous path following."
                                 ])}
 
+                            {this.make_listcomp("Tridimensional Game of Life", 
+
+                                "Personal mini project",
+
+                                ["Made a cube-based cellular automaton world to learn about emergent behavior"
+                                ])}
 
                             {this.make_listcomp("One Month Hack project", "Solo project", [
 
