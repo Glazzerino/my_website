@@ -15,16 +15,7 @@ function make_component(header, subheader, entries) {
     </Col>
         
 
-    {/* <Row>
-            <Col md="auto">
-                {arrow}
-            </Col>
-            <Col>
-                <p1> Working with <b>computer vision</b> to build an aiming system
-                for our autonomous submarine.</p1>
-                <br/>
-            </Col>
-    </Row> */}
+   
 
     {entries.map(entry => (
         <Row>

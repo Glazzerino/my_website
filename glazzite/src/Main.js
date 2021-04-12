@@ -44,13 +44,12 @@ export default class Main extends React.Component {
                         <Jumbotron id="about">
                             <h1>About</h1>
                             <p1>
-                                I'm a sophomore with a passion in anything
-                                STEM. 
+                                I'm a sophomore with a wide interest in STEM fields.
                                 <br/>
                                 I have a special interest for automation, and that's why
                                 during my time in college I will be specializing in AI. 
                                 <br/>
-                                This page lists the things I've worked on I'm most proud of. 
+                                This page lists the things I've worked on.
                         <br />
                                 <br />
                         {/* Currently involved in a RoboNation team at college. */}
