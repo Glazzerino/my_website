@@ -6,6 +6,6 @@
 version: 2
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/my_website/glazzite/" # Location of package manifests
+    directory: "/glazzite/" # Location of package manifests
     schedule:
       interval: "daily"
