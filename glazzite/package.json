@@ -13,7 +13,7 @@
     "react-html-parser": "^2.0.2",
     "react-obfuscate": "^3.6.8",
     "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^2.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",
